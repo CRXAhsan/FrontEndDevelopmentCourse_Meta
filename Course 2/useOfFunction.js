@@ -7,7 +7,7 @@ function letterFinder(word, match) {
         if (word[i] == match) {
             console.log(`Match Found for ${match} on index ${i}`);
         }
-        else{
+        else {
             console.log(`Match Not Found for ${match} on index ${i}`);
         }
     }
