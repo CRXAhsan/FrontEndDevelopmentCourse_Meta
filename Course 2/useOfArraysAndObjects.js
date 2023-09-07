@@ -34,6 +34,17 @@ droneKeys.forEach(function (key) {
 console.log(result)
 
 
+let obj = {
+    key: 1,
+    value: 4
+}
+
+let output = { ...obj};
+
+output.value -= obj.key;
+
+console.log("Object value is "+output.value);
+
 //these are the three methods for array 
 //1. foreach
 //2. map

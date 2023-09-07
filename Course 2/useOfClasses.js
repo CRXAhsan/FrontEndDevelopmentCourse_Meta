@@ -56,3 +56,26 @@ console.log(highSpeedTrain);
 
 train1.toggleLights();
 train1.lightStatus();
+
+class cake {
+    constructor(lyr) {
+        this.layers = lyr;
+    }
+
+    getLayers() {
+        return this.layers;
+    }
+}
+
+class weddingCake extends cake {
+    constructor() {
+        super(2);
+    }
+
+    getLayers() {
+        return super.getLayers() * 5;
+    }
+}
+
+var result = new weddingCake();
+console.log(result.getLayers());

@@ -54,3 +54,9 @@ function testBracketsDynamicAccess() {
     console.log(drone[dynamicKey]);
 }
 testBracketsDynamicAccess();
+
+const [a,b] = [1,2,3,4];
+console.log(b);
+
+const apple="hi"
+apple = "hello"

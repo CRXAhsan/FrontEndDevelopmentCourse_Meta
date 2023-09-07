@@ -15,3 +15,17 @@ function letterFinder(word, match) {
 }
 
 letterFinder("Ahsan", "s");
+
+function count (...basket){
+    console.log(basket.length)
+}
+count(10,9,8,7,6);
+
+function scopeTest()
+{
+    var y = 44;
+    console.log(x);
+}
+
+var x = 33;
+scopeTest();
