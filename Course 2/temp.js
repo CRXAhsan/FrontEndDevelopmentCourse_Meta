@@ -59,4 +59,7 @@ const [a,b] = [1,2,3,4];
 console.log(b);
 
 const apple="hi"
-apple = "hello"
+
+
+var x = 0 != 1;
+console.log(typeof (x));
