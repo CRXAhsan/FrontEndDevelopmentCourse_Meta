@@ -9,7 +9,7 @@ console.log(fruitsAndBerries); // outputs a single array
 
 const flying = { wings: 2 }
 const car = { wheels: 4 }
-const flyingCar = {...flying, ...car}
+const flyingCar = { ...flying, ...car }
 console.log(flyingCar) // {wings: 2, wheels: 4}
 
 // Add new members to arrays without using the push() method
@@ -34,7 +34,7 @@ const car1 = {
     speed: 200,
     color: 'yellow'
 }
-const car2 = {...car1}
+const car2 = { ...car1 }
 
 car1.speed = 201
 
