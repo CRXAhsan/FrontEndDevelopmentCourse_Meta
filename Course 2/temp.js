@@ -55,10 +55,10 @@ function testBracketsDynamicAccess() {
 }
 testBracketsDynamicAccess();
 
-const [a,b] = [1,2,3,4];
+const [a, b] = [1, 2, 3, 4];
 console.log(b);
 
-const apple="hi"
+const apple = "hi"
 
 
 var x = 0 != 1;
