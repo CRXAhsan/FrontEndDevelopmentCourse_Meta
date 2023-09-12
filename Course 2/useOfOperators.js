@@ -36,10 +36,10 @@ console.log('Counter Value is: ', counter);
 
 
 
-    var globalVar = 77;
+var globalVar = 77;
 
-    function scopeTest() {
-        var localVar = 88;
-    }
+function scopeTest() {
+    var localVar = 88;
+}
 
-    console.log(localVar);
+console.log(localVar);
