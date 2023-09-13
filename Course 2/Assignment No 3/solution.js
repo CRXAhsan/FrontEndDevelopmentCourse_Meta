@@ -55,7 +55,7 @@ birdCan();
 
 function animalCan() {
     for (var prop in bird) {
-        console.log(prop+ ": " + bird[prop]);
+        console.log(prop + ": " + bird[prop]);
     }
 }
 animalCan();
